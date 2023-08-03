@@ -1,0 +1,44 @@
+/* styling to affect card position */
+.card-container {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;  
+}
+
+/* styling to control overall look of card */
+.card {
+    max-width: fit-content;
+    padding: 10px;  
+    border: solid 3px; 
+    border-radius: 10px; 
+    border-color: #9CB4AC;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+/* styling to resize image */
+img {
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+
+/* makeshift 'button' from anchor tag styling */
+.cta-button {
+    border: solid 1px;
+    border-radius: 5px; 
+    max-width: fit-content; 
+    padding: 6px;
+}
+
+/* control look of anchor tag text and hover property */
+a {
+    text-decoration: none;
+    color: white;
+    background-color:#2E5E4E;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    background-color: #93A7AA;
+}
